@@ -14,3 +14,7 @@
 
 ### Challenge 04: Insert Middle Value
  ![Insert-Middle-Value](./images/middleValue.PNG)
+
+### Challenge 05: Find-Duplicates
+![Find-Duplicates](./images/ch5.PNG)
+
