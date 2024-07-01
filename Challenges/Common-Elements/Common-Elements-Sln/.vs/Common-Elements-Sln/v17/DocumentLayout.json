@@ -27,15 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CommomElementsTests",
+              "Title": "CommomElementsTests.csproj",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Challenges\\Common-Elements\\Common-Elements-Sln\\CommomElementsTests\\CommomElementsTests.csproj",
               "RelativeDocumentMoniker": "CommomElementsTests\\CommomElementsTests.csproj",
               "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Challenges\\Common-Elements\\Common-Elements-Sln\\CommomElementsTests\\CommomElementsTests.csproj",
               "RelativeToolTip": "CommomElementsTests\\CommomElementsTests.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-01T13:22:20.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T13:22:20.534Z"
             },
             {
               "$type": "Document",
@@ -47,8 +46,7 @@
               "RelativeToolTip": "CommonElements\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T13:18:08.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T13:18:08.24Z"
             },
             {
               "$type": "Document",

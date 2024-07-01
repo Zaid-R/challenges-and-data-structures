@@ -1,0 +1,1 @@
+![Common-Elements](./ch6.PNG)
