@@ -1,0 +1,15 @@
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\bin\Debug\net7.0\CommonElements.exe
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\bin\Debug\net7.0\CommonElements.deps.json
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\bin\Debug\net7.0\CommonElements.runtimeconfig.json
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\bin\Debug\net7.0\CommonElements.dll
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\bin\Debug\net7.0\CommonElements.pdb
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\CommonElements.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\CommonElements.AssemblyInfoInputs.cache
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\CommonElements.AssemblyInfo.cs
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\CommonElements.csproj.CoreCompileInputs.cache
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\CommonElements.sourcelink.json
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\CommonElements.dll
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\refint\CommonElements.dll
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\CommonElements.pdb
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\CommonElements.genruntimeconfig.cache
+D:\MVS Projects\challenges-and-data-structures\Challenges\Common-Elements\Common-Elements-Sln\CommonElements\obj\Debug\net7.0\ref\CommonElements.dll
