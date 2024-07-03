@@ -20,3 +20,6 @@
 
 ### Challenge 06-A: Common Elements
 ![Common-Elements](./images/ch6.PNG)
+
+### Challenge 06-B: Reverse Words
+![Reverse-Words](./images/ch6-B.PNG)
