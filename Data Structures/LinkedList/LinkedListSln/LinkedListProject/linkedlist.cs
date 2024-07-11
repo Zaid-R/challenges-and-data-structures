@@ -8,19 +8,19 @@ namespace LinkedListProject
 {
     public class LinkedList
     {
-        public Node head;
-        public Node? tail;
+        public Node Head { get; private set; }
+        public Node? Tail { get; private set; }
         public int Length { get; private set; } = 1;
 
         public LinkedList(Node head)
         {
-            this.head = head;
-            head.next = tail;
+            this.Head = head;
+            head.next = Tail;
         }
 
         public bool Includes(int value)
         {
-            Node? tracker = this.head;
+            Node? tracker = this.Head;
             while (tracker is not null && tracker.value != value)
             {
                 tracker = tracker.next;
@@ -31,10 +31,10 @@ namespace LinkedListProject
         // return true if the value does exist and deleted, otherwise return false
         public bool Remove(int value)
         {
-            Node? tracker = this.head;
+            Node? tracker = this.Head;
             if (tracker.value == value)
             {
-                head = head.next;
+                Head = Head.next;
             }
             else
             {
@@ -49,9 +49,9 @@ namespace LinkedListProject
                 // make the next of tracker is the next of the delete node
 
                 tracker.next = tracker.next.next;
-                if (value == tail.value)
+                if (value == Tail.value)
                 {
-                    tail = tracker;
+                    Tail = tracker;
                 }
             }
             Length--;
@@ -63,17 +63,17 @@ namespace LinkedListProject
             Node newNode = new Node(value);
             if (Length == 1)
             {
-                head.next = newNode;
-                tail = newNode;
+                Head.next = newNode;
+                Tail = newNode;
             }
             else if(Length>1)
             {
-                tail!.next = newNode;
-                tail = newNode;
+                Tail!.next = newNode;
+                Tail = newNode;
             }
             else
             {
-                head = newNode;
+                Head = newNode;
             }
             Length++;
         }
@@ -81,7 +81,7 @@ namespace LinkedListProject
         public string PrintList()
         {
             int[] values = new int[Length];
-            Node tracker = this.head;
+            Node tracker = this.Head;
             int i = 0;
             while (tracker != null)
             {

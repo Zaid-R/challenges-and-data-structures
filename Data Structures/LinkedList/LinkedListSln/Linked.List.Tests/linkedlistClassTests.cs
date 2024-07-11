@@ -22,11 +22,11 @@ namespace Linked.List.Tests
             LinkedList list = initLinkedList();
 
             //Act
-            int oldTailValue = list.tail!.value;
+            int oldTailValue = list.Tail!.value;
             list.Remove(oldTailValue);
 
             // Assert
-            Assert.NotEqual(oldTailValue, list.tail!.value);
+            Assert.NotEqual(oldTailValue, list.Tail!.value);
         }
 
         [Fact]
