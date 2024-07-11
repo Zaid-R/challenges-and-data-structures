@@ -23,3 +23,6 @@
 
 ### Challenge 06-B: Reverse Words
 ![Reverse-Words](./images/ch6-B.PNG)
+
+### Linked List Implementation
+![Linked List Implementation](./images/linkedlistwhiteboard.png)

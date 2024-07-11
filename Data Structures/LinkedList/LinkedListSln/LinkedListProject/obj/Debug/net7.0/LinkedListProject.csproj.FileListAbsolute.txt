@@ -1,0 +1,15 @@
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\bin\Debug\net7.0\LinkedListProject.exe
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\bin\Debug\net7.0\LinkedListProject.deps.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\bin\Debug\net7.0\LinkedListProject.runtimeconfig.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\bin\Debug\net7.0\LinkedListProject.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\bin\Debug\net7.0\LinkedListProject.pdb
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\LinkedListProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\LinkedListProject.AssemblyInfoInputs.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\LinkedListProject.AssemblyInfo.cs
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\LinkedListProject.csproj.CoreCompileInputs.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\LinkedListProject.sourcelink.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\LinkedListProject.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\refint\LinkedListProject.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\LinkedListProject.pdb
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\LinkedListProject.genruntimeconfig.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\LinkedList\LinkedListSln\LinkedListProject\obj\Debug\net7.0\ref\LinkedListProject.dll
