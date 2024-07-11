@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E357001-7AE7-4C71-9E92-D61791C038BE}|LinkedListProject\\LinkedListProject.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\linkedlist\\linkedlistsln\\linkedlistproject\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E357001-7AE7-4C71-9E92-D61791C038BE}|LinkedListProject\\LinkedListProject.csproj|solutionrelative:linkedlistproject\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E357001-7AE7-4C71-9E92-D61791C038BE}|LinkedListProject\\LinkedListProject.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\linkedlist\\linkedlistsln\\linkedlistproject\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E357001-7AE7-4C71-9E92-D61791C038BE}|LinkedListProject\\LinkedListProject.csproj|solutionrelative:linkedlistproject\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E357001-7AE7-4C71-9E92-D61791C038BE}|LinkedListProject\\LinkedListProject.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\linkedlist\\linkedlistsln\\linkedlistproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E357001-7AE7-4C71-9E92-D61791C038BE}|LinkedListProject\\LinkedListProject.csproj|solutionrelative:linkedlistproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61AEDDC4-D1A0-48AE-9291-C498BF12F4C5}|Linked.List.Tests\\Linked.List.Tests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\linkedlist\\linkedlistsln\\linked.list.tests\\linkedlistclasstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61AEDDC4-D1A0-48AE-9291-C498BF12F4C5}|Linked.List.Tests\\Linked.List.Tests.csproj|solutionrelative:linked.list.tests\\linkedlistclasstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "linkedlist.cs",
+              "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\LinkedListProject\\linkedlist.cs",
+              "RelativeDocumentMoniker": "LinkedListProject\\linkedlist.cs",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\LinkedListProject\\linkedlist.cs",
+              "RelativeToolTip": "LinkedListProject\\linkedlist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwFwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:17:14.516Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "linkedlistClassTests.cs",
+              "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\Linked.List.Tests\\linkedlistClassTests.cs",
+              "RelativeDocumentMoniker": "Linked.List.Tests\\linkedlistClassTests.cs",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\Linked.List.Tests\\linkedlistClassTests.cs",
+              "RelativeToolTip": "Linked.List.Tests\\linkedlistClassTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:57:55.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "node.cs",
+              "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\LinkedListProject\\node.cs",
+              "RelativeDocumentMoniker": "LinkedListProject\\node.cs",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\LinkedListProject\\node.cs",
+              "RelativeToolTip": "LinkedListProject\\node.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:17:13.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\LinkedListProject\\Program.cs",
+              "RelativeDocumentMoniker": "LinkedListProject\\Program.cs",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\LinkedList\\LinkedListSln\\LinkedListProject\\Program.cs",
+              "RelativeToolTip": "LinkedListProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:09:13.166Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
