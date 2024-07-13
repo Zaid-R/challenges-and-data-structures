@@ -8,7 +8,7 @@ namespace LinkedListProject
 {
     public class LinkedList
     {
-        public Node Head { get; private set; }
+        public Node? Head { get; private set; }
         public Node? Tail { get; private set; }
         public int Length { get; private set; } = 1;
 
@@ -16,6 +16,25 @@ namespace LinkedListProject
         {
             this.Head = head;
             head.next = Tail;
+        }
+
+        public void RemoveDuplicate()
+        {
+            Node? current = Head;
+            while (current != null)
+            {
+                Node? tracker = current.next;
+                while (tracker != null)
+                {
+                    if (tracker.value == current.value)
+                    {
+                        Remove(tracker.value);
+                        break;
+                    }
+                    tracker = tracker.next;
+                }
+                current = current.next;
+            }
         }
 
         public bool Includes(int value)
@@ -31,8 +50,8 @@ namespace LinkedListProject
         // return true if the value does exist and deleted, otherwise return false
         public bool Remove(int value)
         {
-            Node? tracker = this.Head;
-            if (tracker.value == value)
+            Node? tracker = Head;
+            if (Head is not null && Head.value == value)
             {
                 Head = Head.next;
             }
@@ -49,7 +68,7 @@ namespace LinkedListProject
                 // make the next of tracker is the next of the delete node
 
                 tracker.next = tracker.next.next;
-                if (value == Tail.value)
+                if (tracker == Tail && value == Tail.value)
                 {
                     Tail = tracker;
                 }
@@ -66,7 +85,7 @@ namespace LinkedListProject
                 Head.next = newNode;
                 Tail = newNode;
             }
-            else if(Length>1)
+            else if (Length > 1)
             {
                 Tail!.next = newNode;
                 Tail = newNode;
@@ -88,7 +107,7 @@ namespace LinkedListProject
                 values[i++] = tracker.value;
                 tracker = tracker.next;
             }
-            return $"Head{(Length == 0?"": "-> ")}" + String.Join(" -> ", values) + " -> Null";
+            return $"Head {(Length == 0 ? "" : "-> ")}" + String.Join(" -> ", values) + " -> Null";
         }
     }
 }

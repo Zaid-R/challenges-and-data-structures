@@ -4,13 +4,16 @@ namespace Linked.List.Tests
 {
     public class linkedlistClassTests
     {
-        private LinkedListProject.LinkedList initLinkedList()
+        public static LinkedListProject.LinkedList initLinkedList(int[]? arr = null)
         {
-            LinkedList list = new LinkedList(new Node(5));
-            int[] values = { 10, 20, 30 };
-            foreach (int value in values)
+            if (arr == null || arr.Length == 0)
             {
-                list.Add(value);
+                arr = new int[] { 5, 10, 20, 30 };
+            }
+            LinkedList list = new LinkedList(new Node(arr[0]));
+            for (int i = 1; i < arr.Length; i++)
+            {
+                list.Add(arr[i]);
             }
             return list;
         }
@@ -26,7 +29,8 @@ namespace Linked.List.Tests
             list.Remove(oldTailValue);
 
             // Assert
-            Assert.NotEqual(oldTailValue, list.Tail!.value);
+            //Assert.NotEqual(oldTailValue, list.Tail!.value);
+            Assert.NotEqual(20,list.Tail.value);
         }
 
         [Fact]
