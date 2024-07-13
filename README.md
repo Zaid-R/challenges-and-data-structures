@@ -26,3 +26,6 @@
 
 ### Linked List Implementation
 ![Linked List Implementation](./images/linkedlistwhiteboard.png)
+
+### Linked List Remove Duplicates
+![Linked List Remove Duplicates](./images/removeduplicates.png)

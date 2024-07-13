@@ -1,1 +1,1 @@
-![Linked List Implementation](./linkedlistwhiteboard.png)
+![removed uplicates](./removeduplicates.png)
