@@ -4,27 +4,16 @@ namespace Linked.List.Tests
 {
     public class linkedlistClassTests
     {
-        public static LinkedListProject.LinkedList initLinkedList(int[]? arr = null)
-        {
-            if (arr == null || arr.Length == 0)
-            {
-                arr = new int[] { 5, 10, 20, 30 };
-            }
-            LinkedList list = new LinkedList(new Node(arr[0]));
-            for (int i = 1; i < arr.Length; i++)
-            {
-                list.Add(arr[i]);
-            }
-            return list;
-        }
 
+        int[] arr = { 1,2,3,4};
         [Fact]
         public void Remove_Node_From_The_End_Of_LinkedList()
         {
             // Arrange
-            LinkedList list = initLinkedList();
+            LinkedList list = new LinkedList();
 
             //Act
+            list.addArray(arr);
             int oldTailValue = list.Tail!.value;
             list.Remove(oldTailValue);
 
@@ -37,9 +26,10 @@ namespace Linked.List.Tests
         public void Test_PrintList_Method()
         {
             // Arrange
-            LinkedList list = initLinkedList();
+            LinkedList list = new LinkedList();
 
             // Act
+            list.addArray(arr);
             string expectedOutput = "Head -> 5 -> 10 -> 20 -> 30 -> Null";
 
             // Assert

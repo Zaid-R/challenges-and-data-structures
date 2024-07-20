@@ -25,28 +25,30 @@ namespace Linked.List.Tests
         {
             // Arrange
             // values = {10, 20, 30}
-            var list = linkedlistClassTests.initLinkedList(new[] { 10,20,30});
+            var list = new LinkedList();
+            list.addArray(new[] { 10, 20, 30 });
 
             // Act
             list.RemoveDuplicate();
             int[] listAfterRemove = new int[list.Length];
             Node? tracker = list.Head;
-            int i = 0; 
-            while (tracker != null) {
+            int i = 0;
+            while (tracker != null)
+            {
                 listAfterRemove[i++] = tracker.value;
                 tracker = tracker.next;
             }
 
             // Assert
-            Assert.True(AreArraysEqual(listAfterRemove,new[] { 10, 20, 30 }));
+            Assert.True(AreArraysEqual(listAfterRemove, new[] { 10, 20, 30 }));
         }
 
         [Fact]
         public void On_Duplicate_Nodes_Are_Removed()
         {
             // Arrange
-            // values = {10, 20, 30}
-            var list = linkedlistClassTests.initLinkedList(new[] { 1, 2, 3, 2, 4, 3 });
+            var list = new LinkedList();
+            list.addArray(new[] { 1, 2, 3, 2, 4, 3 });
 
             // Act
             list.RemoveDuplicate();
@@ -60,15 +62,16 @@ namespace Linked.List.Tests
             }
 
             // Assert
-            Assert.True(AreArraysEqual(listAfterRemove,new[] { 1,2,3,4 }));
+            Assert.True(AreArraysEqual(listAfterRemove, new[] { 1, 2, 3, 4 }));
         }
 
         [Fact]
         public void LinkedList_AllNodesAreDuplicates_ReducesToSingleNode()
         {
             // Arrange
-            // values = {10, 20, 30}
-            var list = linkedlistClassTests.initLinkedList(new[] { 7,7,7,7 });
+            var list = new LinkedList();
+            list.addArray(new[] { 7, 7, 7, 7 });
+
 
             // Act
             list.RemoveDuplicate();
@@ -82,7 +85,7 @@ namespace Linked.List.Tests
             }
 
             // Assert
-            Assert.True(AreArraysEqual(listAfterRemove, new[] {7}));
+            Assert.True(AreArraysEqual(listAfterRemove, new[] { 7 }));
         }
     }
 }

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace LinkedListProject
 {
@@ -10,12 +12,53 @@ namespace LinkedListProject
     {
         public Node? Head { get; private set; }
         public Node? Tail { get; private set; }
-        public int Length { get; private set; } = 1;
+        public int Length { get; private set; }
 
-        public LinkedList(Node head)
+        public static LinkedList MergeSortedLists(LinkedList list1, LinkedList list2)
         {
-            this.Head = head;
-            head.next = Tail;
+            Node pointer1 = list1.Head!;
+            Node pointer2 = list2.Head!;
+
+            LinkedList mergedList = new LinkedList();
+
+            void addNode(ref Node pointer)
+            {
+                mergedList.Add(pointer.value);
+                pointer = pointer.next;
+            }
+            
+            void AddRemainingNodes(Node pointer)
+            {
+                while (pointer is not null)
+                {
+                    addNode(ref pointer);
+                }
+            }
+
+            while (pointer1 is not null && pointer2 is not null)
+            {
+                if (pointer1.value <= pointer2.value)
+                {
+                    addNode(ref pointer1);
+                }
+                else
+                {
+                    addNode(ref pointer2);
+                }
+            }
+
+            AddRemainingNodes(pointer1);
+            AddRemainingNodes(pointer2);
+
+            return mergedList;
+        }
+
+        public void addArray(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                this.Add(arr[i]);
+            }
         }
 
         public void RemoveDuplicate()
@@ -108,6 +151,26 @@ namespace LinkedListProject
                 tracker = tracker.next;
             }
             return $"Head {(Length == 0 ? "" : "-> ")}" + String.Join(" -> ", values) + " -> Null";
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is not LinkedList other)
+                return false;
+
+            Node current1 = Head;
+            Node current2 = other.Head;
+
+            while (current1 != null && current2 != null)
+            {
+                if (current1.value != current2.value)
+                    return false;
+
+                current1 = current1.next;
+                current2 = current2.next;
+            }
+
+            return current1 == null && current2 == null;
         }
     }
 }
