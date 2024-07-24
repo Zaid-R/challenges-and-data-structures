@@ -1,0 +1,15 @@
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\bin\Debug\net7.0\StackAndQueuePrj.exe
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\bin\Debug\net7.0\StackAndQueuePrj.deps.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\bin\Debug\net7.0\StackAndQueuePrj.runtimeconfig.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\bin\Debug\net7.0\StackAndQueuePrj.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\bin\Debug\net7.0\StackAndQueuePrj.pdb
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\StackAndQueuePrj.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\StackAndQueuePrj.AssemblyInfoInputs.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\StackAndQueuePrj.AssemblyInfo.cs
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\StackAndQueuePrj.csproj.CoreCompileInputs.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\StackAndQueuePrj.sourcelink.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\StackAndQueuePrj.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\refint\StackAndQueuePrj.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\StackAndQueuePrj.pdb
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\StackAndQueuePrj.genruntimeconfig.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Stack & Queue\StackAndQueue\StackAndQueuePrj\obj\Debug\net7.0\ref\StackAndQueuePrj.dll
