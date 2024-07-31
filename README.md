@@ -35,3 +35,6 @@
 
 ### Stack & Queue Implementation
 ![Stack & Queue Implementation](./images/StackAndQueueWhiteboard.png)
+
+### Reverse a Stack using Queue
+![Reverse a Stack using Queue](./images/ReverseStack.png)

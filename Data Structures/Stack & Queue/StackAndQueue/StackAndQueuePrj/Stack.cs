@@ -17,7 +17,7 @@ namespace StackAndQueuePrj
         {
             if (IsEmpty())
                 throw new NullReferenceException("Stack is Empty from the pop");
-            
+
             int data = top.Data;
             top = top.Next;
             return data;
@@ -31,10 +31,23 @@ namespace StackAndQueuePrj
             return top.Data;
         }
 
-        public bool IsEmpty()
-        {
-            return top is null;
-        }
+        public bool IsEmpty() => top is null;
 
+        public override string ToString()
+        {
+
+            List<string> result = new() {"Top"};
+            Node pointer = top;
+            if (IsEmpty())
+            {
+                result.Add("Null");
+            }
+            while (pointer != null)
+            {
+                result.Add(pointer.Data.ToString());
+                pointer = pointer.Next;
+            }
+            return string.Join(" -> ", result);
+        }
     }
 }
