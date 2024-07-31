@@ -11,4 +11,5 @@ namespace StackAndQueuePrj
             Data = data;
         }
     }
+
 }

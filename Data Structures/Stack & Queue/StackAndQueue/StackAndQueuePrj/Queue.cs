@@ -6,10 +6,7 @@ namespace StackAndQueuePrj
         private Node front = null!;
         private Node back = null!;
 
-        public bool IsEmpty()
-        {
-            return front is null;
-        }
+        public bool IsEmpty() => front is null;
 
         public void Enqueue(int data)
         {
