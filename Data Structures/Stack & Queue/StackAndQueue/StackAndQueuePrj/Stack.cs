@@ -3,14 +3,15 @@ namespace StackAndQueuePrj
 {
     public class Stack
     {
-        private Node top = null!;
-
+        protected Node top = null!;
+        public int Size { get; private set; }
         public void Push(int data)
         {
             Node newNode = new Node(data);
 
             newNode.Next = top;
             top = newNode;
+            Size++;
         }
 
         public int Pop()
@@ -20,6 +21,7 @@ namespace StackAndQueuePrj
 
             int data = top.Data;
             top = top.Next;
+            Size--;
             return data;
         }
 
