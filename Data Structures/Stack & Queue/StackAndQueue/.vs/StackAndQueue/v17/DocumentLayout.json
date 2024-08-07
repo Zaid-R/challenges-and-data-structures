@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueueprj\\stackwithdeletemiddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\stackwithdeletemiddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueueprj\\minstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\minstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueueprj\\stackwithreverse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\stackwithreverse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueuetests\\minstacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|solutionrelative:stackandqueuetests\\minstacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueuetests\\queuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|solutionrelative:stackandqueuetests\\queuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueueprj\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueueprj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueueprj\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueueprj\\stackwithdeletemiddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\stackwithdeletemiddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueueprj\\stackwithreverse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\stackwithreverse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueuetests\\stackwithdeletemiddletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{FF04AC2F-55F7-4A0E-915B-D0B2054C572F}|StackAndQueuePrj\\StackAndQueuePrj.csproj|solutionrelative:stackandqueueprj\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueuetests\\queuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|solutionrelative:stackandqueuetests\\queuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\stack \u0026 queue\\stackandqueue\\stackandqueuetests\\stacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45402C7F-F883-4C95-88FE-936428E39D6A}|StackAndQueueTests\\StackAndQueueTests.csproj|solutionrelative:stackandqueuetests\\stacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,11 +54,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "MinStackTests.cs",
+              "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueueTests\\MinStackTests.cs",
+              "RelativeDocumentMoniker": "StackAndQueueTests\\MinStackTests.cs",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueueTests\\MinStackTests.cs",
+              "RelativeToolTip": "StackAndQueueTests\\MinStackTests.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwC0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:06:37.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MinStack.cs",
+              "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\MinStack.cs",
+              "RelativeDocumentMoniker": "StackAndQueuePrj\\MinStack.cs",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\MinStack.cs",
+              "RelativeToolTip": "StackAndQueuePrj\\MinStack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:57:16.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "StackWithDeleteMiddleTests.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueueTests\\StackWithDeleteMiddleTests.cs",
               "RelativeDocumentMoniker": "StackAndQueueTests\\StackWithDeleteMiddleTests.cs",
@@ -58,25 +108,24 @@
               "RelativeToolTip": "StackAndQueueTests\\StackWithDeleteMiddleTests.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAuwBsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T06:01:54.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T06:01:54.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "StackWithDeleteMiddle.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\StackWithDeleteMiddle.cs",
               "RelativeDocumentMoniker": "StackAndQueuePrj\\StackWithDeleteMiddle.cs",
               "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\StackWithDeleteMiddle.cs",
               "RelativeToolTip": "StackAndQueuePrj\\StackWithDeleteMiddle.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T05:55:33.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "StackWithReverse.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\StackWithReverse.cs",
               "RelativeDocumentMoniker": "StackAndQueuePrj\\StackWithReverse.cs",
@@ -84,12 +133,11 @@
               "RelativeToolTip": "StackAndQueuePrj\\StackWithReverse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T01:12:21.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T01:12:21.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "QueueTests.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueueTests\\QueueTests.cs",
               "RelativeDocumentMoniker": "StackAndQueueTests\\QueueTests.cs",
@@ -97,11 +145,12 @@
               "RelativeToolTip": "StackAndQueueTests\\QueueTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:11:27.53Z"
+              "WhenOpened": "2024-07-24T17:11:27.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "StackTests.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueueTests\\StackTests.cs",
               "RelativeDocumentMoniker": "StackAndQueueTests\\StackTests.cs",
@@ -119,14 +168,14 @@
               "RelativeDocumentMoniker": "StackAndQueuePrj\\Stack.cs",
               "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\Stack.cs",
               "RelativeToolTip": "StackAndQueuePrj\\Stack.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBcAAAATAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T16:17:40.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Queue.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\Queue.cs",
               "RelativeDocumentMoniker": "StackAndQueuePrj\\Queue.cs",
@@ -134,12 +183,11 @@
               "RelativeToolTip": "StackAndQueuePrj\\Queue.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T16:15:16.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T16:15:16.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Node.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\Node.cs",
               "RelativeDocumentMoniker": "StackAndQueuePrj\\Node.cs",
@@ -147,18 +195,17 @@
               "RelativeToolTip": "StackAndQueuePrj\\Node.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T16:04:05.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T16:04:05.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\Program.cs",
               "RelativeDocumentMoniker": "StackAndQueuePrj\\Program.cs",
               "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Stack \u0026 Queue\\StackAndQueue\\StackAndQueuePrj\\Program.cs",
               "RelativeToolTip": "StackAndQueuePrj\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwBcAAABTAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T16:00:32.248Z",
               "EditorCaption": ""

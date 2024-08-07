@@ -41,3 +41,6 @@
 
 ### Delete Middle Element of a Stack
 ![Delete Middle Element of a Stack](./images/removeMiddleOfStack.png)
+
+### Min Stack
+![Min Stack](./images/minStackBoard.png)
