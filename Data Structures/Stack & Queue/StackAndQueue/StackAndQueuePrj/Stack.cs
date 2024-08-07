@@ -25,20 +25,14 @@ namespace StackAndQueuePrj
             return data;
         }
 
-        public int Peek()
-        {
-            if (IsEmpty())
-                throw new NullReferenceException("Stack is Empty from the peek");
-
-            return top.Data;
-        }
+        public int Peek() => IsEmpty() ? throw new NullReferenceException("Stack is Empty from the peek") : top.Data;
 
         public bool IsEmpty() => top is null;
 
         public override string ToString()
         {
 
-            List<string> result = new() {"Top"};
+            List<string> result = new() { "Top" };
             Node pointer = top;
             if (IsEmpty())
             {
