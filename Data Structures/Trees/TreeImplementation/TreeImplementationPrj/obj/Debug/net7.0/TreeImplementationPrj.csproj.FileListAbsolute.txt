@@ -1,0 +1,15 @@
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\bin\Debug\net7.0\TreeImplementationPrj.exe
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\bin\Debug\net7.0\TreeImplementationPrj.deps.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\bin\Debug\net7.0\TreeImplementationPrj.runtimeconfig.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\bin\Debug\net7.0\TreeImplementationPrj.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\bin\Debug\net7.0\TreeImplementationPrj.pdb
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\TreeImplementationPrj.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\TreeImplementationPrj.AssemblyInfoInputs.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\TreeImplementationPrj.AssemblyInfo.cs
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\TreeImplementationPrj.csproj.CoreCompileInputs.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\TreeImplementationPrj.sourcelink.json
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\TreeImplementationPrj.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\refint\TreeImplementationPrj.dll
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\TreeImplementationPrj.pdb
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\TreeImplementationPrj.genruntimeconfig.cache
+D:\MVS Projects\challenges-and-data-structures\Data Structures\Trees\TreeImplementation\TreeImplementationPrj\obj\Debug\net7.0\ref\TreeImplementationPrj.dll
