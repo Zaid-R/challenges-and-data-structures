@@ -44,3 +44,6 @@
 
 ### Min Stack
 ![Min Stack](./images/minStackBoard.png)
+
+## Tree Implementation
+![Tree Implementation](./images/BinaryTreeWhiteBoard.png)
