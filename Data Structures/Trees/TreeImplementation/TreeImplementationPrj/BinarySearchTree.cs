@@ -10,8 +10,6 @@ namespace TreeImplementationPrj
 
         public void Add(int value) => Insert(Root, value);
         public bool Contains(int value) => Search(Root, value);
-
-
         private bool Search(Node node, int value)
         {
             if (node == null) return false;
@@ -97,6 +95,5 @@ namespace TreeImplementationPrj
             }
             return minValue;
         }
-
     }
 }

@@ -22,6 +22,8 @@
             // Check if the node is removed
             contains = bst.Contains(5); // contains: false
             Console.WriteLine($"Does tree contain 5: ${contains}");
+            bst.MirrorTree();
+            bst.Print();
             Console.ReadKey();
         }
     }

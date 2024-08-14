@@ -66,6 +66,56 @@ namespace TreeImplementationTests
             // Assert
             Assert.Equal(expected, actual);
         }
-    }
 
+        [Fact]
+        public void MirrorTree_InorderTraversal_ShouldReturnMirrorImage()
+        {
+            // Arrange
+            var bst = new BinaryTree();
+            bst.Add(10);
+            bst.Add(5);
+            bst.Add(15);
+            bst.Add(2);
+            bst.Add(7);
+
+            // Act
+            bst.MirrorTree();
+            List<int> result = new();
+            bst.InOrderTraversal(bst.GetRoot(), result);
+
+            // Assert
+            var expected = new int[] { 15, 10, 7, 5, 2 };
+            Assert.Equal(expected, result);
+        }
+
+        [Fact]
+        public void MirrorTree_SingleNodeTree_ShouldRemainTheSame()
+        {
+            // Arrange
+            var bst = new BinaryTree();
+            bst.Add(10);
+
+            // Act
+            bst.MirrorTree();
+            List<int> result = new();
+            bst.InOrderTraversal(bst.GetRoot(), result);
+
+            // Assert
+            var expected = new int[] { 10 };
+            Assert.Equal(expected, result);
+        }
+        [Fact]
+        public void MirrorTree_EmptyTree_ShouldRemainNull()
+        {
+            // Arrange
+            var bst = new BinaryTree();
+
+            // Act
+            bst.MirrorTree();
+            var result = bst.GetRoot();
+
+            // Assert
+            Assert.Null(result);
+        }
+    }
 }
