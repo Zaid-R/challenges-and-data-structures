@@ -47,3 +47,6 @@
 
 ## Tree Implementation
 ![Tree Implementation](./images/BinaryTreeWhiteBoard.png)
+
+## Binary Tree - Mirror Tree
+![Binary Tree - Mirror Tree](./images/mirrorTreeWhiteBoard.png)

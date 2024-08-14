@@ -116,5 +116,24 @@ namespace TreeImplementationPrj
             if (Right < 0) Right = Left + s.Length;
             while (Console.CursorLeft < Right) Console.Write(s);
         }
+
+        /// <summary>
+        /// Converts the binary tree into its mirror image.
+        /// </summary>
+        public void MirrorTree() => Mirror(Root);
+
+        private void Mirror(Node node)
+        {
+            if (node == null) return;
+
+            // Recursively mirror the left and right subtrees
+            Mirror(node.Left);
+            Mirror(node.Right);
+
+            // Swap the left and right children
+            var temp = node.Left;
+            node.Left = node.Right;
+            node.Right = temp;
+        }
     }
 }
