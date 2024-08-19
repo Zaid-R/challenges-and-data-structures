@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PPuo4j4/kLI=",
+  "dgSpecHash": "nbkAtBXmLTc=",
   "success": true,
   "projectFilePath": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationPrj\\TreeImplementationPrj.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\LTUC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\LTUC\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\LTUC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\LTUC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

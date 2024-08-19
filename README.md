@@ -50,3 +50,6 @@
 
 ## Binary Tree - Mirror Tree
 ![Binary Tree - Mirror Tree](./images/mirrorTreeWhiteBoard.png)
+
+## Binary Tree - Second Maximum Value
+![Binary Tree - Second Maximum Value](./images/secondMaxValueWhiteboard.png)
