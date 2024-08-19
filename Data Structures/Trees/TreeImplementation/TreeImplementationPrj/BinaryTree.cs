@@ -135,5 +135,44 @@ namespace TreeImplementationPrj
             node.Left = node.Right;
             node.Right = temp;
         }
+
+        /// <summary>
+        /// Finds the second maximum value in the binary tree.
+        /// </summary>
+        /// <returns>The second maximum value, or null if it doesn't exist.</returns>
+        public int? FindSecondMax()
+        {
+            if (Root == null || (Root.Left == null && Root.Right == null))
+            {
+                // Tree is empty or has only one node, no second max exists
+                return null;
+            }
+
+            Node current = Root;
+            Node parent = null;
+
+            // Traverse to the rightmost node
+            while (current.Right != null)
+            {
+                parent = current;
+                current = current.Right;
+            }
+
+            // If the rightmost node has a left subtree, find the rightmost node in that subtree
+            if (current.Left != null)
+            {
+                current = current.Left;
+                while (current.Right != null)
+                {
+                    current = current.Right;
+                }
+                return current.Value;
+            }
+
+            // Otherwise, the parent of the rightmost node is the second maximum
+            return parent?.Value;
+        }
     }
+
+    
 }

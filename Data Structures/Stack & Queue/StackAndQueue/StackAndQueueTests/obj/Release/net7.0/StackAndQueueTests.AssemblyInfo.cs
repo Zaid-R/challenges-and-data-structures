@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StackAndQueueTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b20de4c82a9013d664c81ae20f732bb84c76bb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d15ba55071d71e1f0b3fae73a0564463d529d221")]
 [assembly: System.Reflection.AssemblyProductAttribute("StackAndQueueTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StackAndQueueTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

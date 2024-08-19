@@ -117,5 +117,56 @@ namespace TreeImplementationTests
             // Assert
             Assert.Null(result);
         }
+        [Fact]
+        public void TestFindSecondMax_BasicExample()
+        {
+            // Arrange
+            var bst = new BinaryTree();
+            bst.Add(10);
+            bst.Add(5);
+            bst.Add(20);
+            bst.Add(3);
+            bst.Add(7);
+            bst.Add(15);
+            bst.Add(25);
+
+            // Act
+            var secondMax = bst.FindSecondMax();
+
+            // Assert
+            Assert.Equal(20, secondMax);
+        }
+
+        [Fact]
+        public void TestFindSecondMax_LessThanTwoUniqueValues()
+        {
+            // Arrange
+            var bst = new BinaryTree();
+            bst.Add(10);
+
+            // Act
+            var secondMax = bst.FindSecondMax();
+
+            // Assert
+            Assert.Null(secondMax);
+        }
+
+        [Fact]
+        public void TestFindSecondMax_WithNegativeValues()
+        {
+            // Arrange
+            var bst = new BinaryTree();
+            bst.Add(-10);
+            bst.Add(-20);
+            bst.Add(-30);
+            bst.Add(-5);
+            bst.Add(-15);
+
+            // Act
+            var secondMax = bst.FindSecondMax();
+
+            // Assert
+            Assert.Equal(-10, secondMax);
+        }
     }
 }
