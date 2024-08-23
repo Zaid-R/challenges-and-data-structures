@@ -5,7 +5,7 @@ namespace TreeImplementationPrj
 
     public class BinarySearchTree
     {
-        protected Node Root { get; set; }
+        public Node Root { get; set; }
         public Node GetRoot() => Root;
 
         public void Add(int value) => Insert(Root, value);

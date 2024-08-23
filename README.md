@@ -53,3 +53,6 @@
 
 ## Binary Tree - Second Maximum Value
 ![Binary Tree - Second Maximum Value](./images/secondMaxValueWhiteboard.png)
+
+## Binary Tree - Sum of leaf nodes
+![Binary Tree - Sum of leaf nodes](./images/leafsumwhiteboard.png)

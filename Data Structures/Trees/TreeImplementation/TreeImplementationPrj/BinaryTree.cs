@@ -4,7 +4,7 @@ using System.Xml.Linq;
 namespace TreeImplementationPrj
 {
 
-    public class BinaryTree: BinarySearchTree
+    public class BinaryTree : BinarySearchTree
     {
         class NodeInfo
         {
@@ -14,34 +14,6 @@ namespace TreeImplementationPrj
             public int Size { get { return Text.Length; } }
             public int EndPos { get { return StartPos + Size; } set { StartPos = value - Size; } }
             public NodeInfo Parent, Left, Right;
-        }
-
-        // ( Root - Left - Right )
-        // Pre-order traversal (Root - Left - Right)
-        public void PreOrderTraversal(Node node, List<int> result)
-        {
-            if (node == null) return;
-            result.Add(node.Value);
-            PreOrderTraversal(node.Left, result);
-            PreOrderTraversal(node.Right, result);
-        }
-
-        // In-order traversal (Left - Root - Right)
-        public void InOrderTraversal(Node node, List<int> result)
-        {
-            if (node == null) return;
-            InOrderTraversal(node.Left, result);
-            result.Add(node.Value);
-            InOrderTraversal(node.Right, result);
-        }
-
-        // Post-order traversal (Left - Right - Root)
-        public void PostOrderTraversal(Node node, List<int> result)
-        {
-            if (node == null) return;
-            PostOrderTraversal(node.Left, result);
-            PostOrderTraversal(node.Right, result);
-            result.Add(node.Value);
         }
         public void Print() => Print(Root);
         private void Print(Node root, string textFormat = "0", int spacing = 1, int topMargin = 2, int LeftMargin = 2)
@@ -116,6 +88,34 @@ namespace TreeImplementationPrj
             if (Right < 0) Right = Left + s.Length;
             while (Console.CursorLeft < Right) Console.Write(s);
         }
+        // ( Root - Left - Right )
+        // Pre-order traversal (Root - Left - Right)
+        public void PreOrderTraversal(Node node, List<int> result)
+        {
+            if (node == null) return;
+            result.Add(node.Value);
+            PreOrderTraversal(node.Left, result);
+            PreOrderTraversal(node.Right, result);
+        }
+
+        // In-order traversal (Left - Root - Right)
+        public void InOrderTraversal(Node node, List<int> result)
+        {
+            if (node == null) return;
+            InOrderTraversal(node.Left, result);
+            result.Add(node.Value);
+            InOrderTraversal(node.Right, result);
+        }
+
+        // Post-order traversal (Left - Right - Root)
+        public void PostOrderTraversal(Node node, List<int> result)
+        {
+            if (node == null) return;
+            PostOrderTraversal(node.Left, result);
+            PostOrderTraversal(node.Right, result);
+            result.Add(node.Value);
+        }
+
 
         /// <summary>
         /// Converts the binary tree into its mirror image.
@@ -172,7 +172,31 @@ namespace TreeImplementationPrj
             // Otherwise, the parent of the rightmost node is the second maximum
             return parent?.Value;
         }
-    }
 
-    
+        /// <summary>
+        /// Calculates the sum of all leaf nodes in the binary tree.
+        /// </summary>
+        /// <returns>The sum of values of all leaf nodes.</returns>
+        public int LeafSum()
+        {
+            return LeafSum(Root);
+        }
+
+        private int LeafSum(Node node)
+        {
+            if (node == null)
+                return 0;
+
+            // Check if it's a leaf node (no children)
+            if (node.Left == null && node.Right == null)
+                return node.Value;
+
+            // Recursively calculate the sum of leaf nodes in the left and right subtrees
+            int leftSum = LeafSum(node.Left);
+            int rightSum = LeafSum(node.Right);
+
+            // Return the sum of leaf nodes
+            return leftSum + rightSum;
+        }
+    }
 }
