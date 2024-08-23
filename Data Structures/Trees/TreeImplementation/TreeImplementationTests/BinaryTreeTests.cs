@@ -168,5 +168,46 @@ namespace TreeImplementationTests
             // Assert
             Assert.Equal(-10, secondMax);
         }
+        [Fact]
+        public void LeafSum_ShouldReturnCorrectSum_ForPositiveLeafValues()
+        {
+            // Arrange
+            BinaryTree Btree = new BinaryTree();
+            Btree.Root = new Node(9);
+            Btree.Root.Left = new Node(8);
+            Btree.Root.Right = new Node(12);
+            Btree.Root.Left.Left = new Node(3);
+            Btree.Root.Left.Right = new Node(7);
+            Btree.Root.Right.Left = new Node(17);
+            Btree.Root.Right.Right = new Node(23);
+            Btree.Root.Left.Left.Right = new Node(4);
+
+            // Act
+            int sumOfLeaves = Btree.LeafSum();
+
+            // Assert
+            Assert.Equal(51, sumOfLeaves); // Leaf nodes: 4, 7, 17, 23. Sum: 4 + 7 + 17 + 23 = 51
+        }
+
+        [Fact]
+        public void LeafSum_ShouldReturnCorrectSum_ForNegativeLeafValues()
+        {
+            // Arrange
+            BinaryTree Btree = new BinaryTree();
+            Btree.Add(9);
+            Btree.Add(8);
+            Btree.Add(12);
+            Btree.Add(3);
+            Btree.Add(7);
+            Btree.Add(17);
+            Btree.Add(23);
+            Btree.Add(-4); // Adding a negative leaf value
+
+            // Act
+            int sumOfLeaves = Btree.LeafSum();
+
+            // Assert
+            Assert.Equal(26, sumOfLeaves); // Leaf nodes: -4, 7, 23. Sum: -4 + 7 + 23 = 26
+        }
     }
 }
