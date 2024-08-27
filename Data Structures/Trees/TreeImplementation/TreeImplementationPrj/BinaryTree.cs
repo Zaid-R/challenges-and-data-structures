@@ -198,5 +198,47 @@ namespace TreeImplementationPrj
             // Return the sum of leaf nodes
             return leftSum + rightSum;
         }
+
+        /// <summary>
+        /// Returns a list of the largest values at each level of the binary tree.
+        /// </summary>
+        /// <returns>List of integers representing the largest value at each level.</returns>
+        public List<int> LargestValueEachLevel()
+        {
+            var result = new List<int>();
+            if (Root == null) return result;
+
+            var queue = new Queue<Node>();
+            queue.Enqueue(Root);
+
+            while (queue.Count > 0)
+            {
+                int levelSize = queue.Count;
+                int maxValue = int.MinValue;
+
+                for (int i = 0; i < levelSize; i++)
+                {
+                    var node = queue.Dequeue();
+                    if (node.Value > maxValue)
+                    {
+                        maxValue = node.Value;
+                    }
+
+                    if (node.Left != null)
+                    {
+                        queue.Enqueue(node.Left);
+                    }
+
+                    if (node.Right != null)
+                    {
+                        queue.Enqueue(node.Right);
+                    }
+                }
+
+                result.Add(maxValue);
+            }
+
+            return result;
+        }
     }
 }

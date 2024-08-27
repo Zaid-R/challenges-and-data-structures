@@ -14,15 +14,19 @@
             //bst.Print();
             //Console.WriteLine(bst.FindSecondMax());
             BinaryTree Btree = new BinaryTree();
-            Btree.Add(9);
-            Btree.Add(8);
-            Btree.Add(12);
-            Btree.Add(3);
-            Btree.Add(7);
-            Btree.Add(17);
-            Btree.Add(23);
-            Btree.Add(-4);
-            Btree.Print();
+            Btree.Root = new Node(5);
+            Btree.Root.Left = new Node(13);
+            Btree.Root.Right = new Node(7);
+            Btree.Root.Left.Left = new Node(3);
+            Btree.Root.Left.Right = new Node(7);
+            Btree.Root.Right.Left = new Node(12);
+            Btree.Root.Right.Right = new Node(20);
+            Btree.Root.Left.Left.Left = new Node(1);
+            Btree.Root.Left.Left.Right = new Node(4);
+            Btree.Root.Right.Left.Right = new Node(11);
+
+            List<int> largestValues = Btree.LargestValueEachLevel();
+            Console.WriteLine(String.Join(',', largestValues));
 
         }
     }

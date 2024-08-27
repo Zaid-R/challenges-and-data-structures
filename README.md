@@ -56,3 +56,6 @@
 
 ## Binary Tree - Sum of leaf nodes
 ![Binary Tree - Sum of leaf nodes](./images/leafsumwhiteboard.png)
+
+## Binary Tree - Largest Value at Each Level
+![Binary Tree - Largest Value at Each Level](./images/last.png)
