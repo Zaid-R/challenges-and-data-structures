@@ -59,3 +59,6 @@
 
 ## Binary Tree - Largest Value at Each Level
 ![Binary Tree - Largest Value at Each Level](./images/last.png)
+
+## Linked List - Rotate by K
+![Linked List - Rotate by K](./images/rotatek.png)

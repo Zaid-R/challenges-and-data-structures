@@ -16,13 +16,16 @@
             list.addArray(values);
             var list2 = new LinkedList();
 
-            values = new int[]{ 5, 15,25,35 };
+            values = new int[]{ 10,20,30,40,50 };
             list2.addArray(values);
 
-            var mergedList = LinkedList.MergeSortedLists(list, list2);
-            Console.WriteLine("List 1: "+list.PrintList());
-            Console.WriteLine("List 2: " + list2.PrintList());
-            Console.WriteLine("Merged List: "+mergedList.PrintList());
+            list2.RotateLeft(3);
+            Console.WriteLine(list2.PrintList()); ;
+            //var mergedList = LinkedList.MergeSortedLists(list, list2);
+            //Console.WriteLine("List 1: "+list.PrintList());
+            //Console.WriteLine("List 2: " + list2.PrintList());
+            //Console.WriteLine("Merged List: "+mergedList.PrintList());
+
             Console.ReadKey();
             //Console.WriteLine("after using RemoveDuplicate():");
             //list.RemoveDuplicate();
