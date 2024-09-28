@@ -240,5 +240,48 @@ namespace TreeImplementationPrj
 
             return result;
         }
+
+        /// <summary>
+        /// Prints the rightmost node at each level of the binary tree.
+        /// This effectively displays the "right view" of the tree.
+        /// </summary>
+        public List<int> PrintRightView()
+        {
+            var result = new List<int>();
+            if (Root == null)
+            {
+                Console.WriteLine("The tree is empty.");
+                return result;
+            }
+
+            var queue = new Queue<Node>();
+            queue.Enqueue(Root);
+
+            while (queue.Count > 0)
+            {
+                int levelSize = queue.Count;
+                Node rightmostNode = null;
+
+                for (int i = 0; i < levelSize; i++)
+                {
+                    var node = queue.Dequeue();
+                    rightmostNode = node; // Capture the last node at each level
+
+                    if (node.Left != null)
+                    {
+                        queue.Enqueue(node.Left);
+                    }
+
+                    if (node.Right != null)
+                    {
+                        queue.Enqueue(node.Right);
+                    }
+                }
+
+                // Print the rightmost node for this level
+                result.Add(rightmostNode.Value);
+            }
+            return result;
+        }
     }
 }

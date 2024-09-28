@@ -1,4 +1,6 @@
-﻿namespace TreeImplementationPrj
+﻿using System.Linq;
+
+namespace TreeImplementationPrj
 {
     internal class Program
     {
@@ -27,6 +29,17 @@
 
             List<int> largestValues = Btree.LargestValueEachLevel();
             Console.WriteLine(String.Join(',', largestValues));
+            Btree.Print();
+
+            BinaryTree Btree2 = new BinaryTree();
+            Btree2.Root = new Node(2);
+            Btree2.Root.Left = new Node(3);
+            Btree2.Root.Right = new Node(5);
+            Btree2.Root.Left.Left = new Node(4);
+            Btree2.Root.Right.Right = new Node(6);
+            Btree2.Root.Left.Left.Right = new Node(7);
+
+            Console.WriteLine(String.Join(" ",Btree2.PrintRightView()));
 
         }
     }

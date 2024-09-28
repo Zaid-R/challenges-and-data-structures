@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D621686C-2DB2-41A5-8640-48C585CC2AC8}|TreeImplementationTests\\TreeImplementationTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\trees\\treeimplementation\\treeimplementationtests\\binarytreetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D621686C-2DB2-41A5-8640-48C585CC2AC8}|TreeImplementationTests\\TreeImplementationTests.csproj|solutionrelative:treeimplementationtests\\binarytreetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E928A58-BAD3-44EC-96B0-298275FF111D}|TreeImplementationPrj\\TreeImplementationPrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\trees\\treeimplementation\\treeimplementationprj\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E928A58-BAD3-44EC-96B0-298275FF111D}|TreeImplementationPrj\\TreeImplementationPrj.csproj|solutionrelative:treeimplementationprj\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D621686C-2DB2-41A5-8640-48C585CC2AC8}|TreeImplementationTests\\TreeImplementationTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\trees\\treeimplementation\\treeimplementationtests\\rightviewtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D621686C-2DB2-41A5-8640-48C585CC2AC8}|TreeImplementationTests\\TreeImplementationTests.csproj|solutionrelative:treeimplementationtests\\rightviewtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E928A58-BAD3-44EC-96B0-298275FF111D}|TreeImplementationPrj\\TreeImplementationPrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\trees\\treeimplementation\\treeimplementationprj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E928A58-BAD3-44EC-96B0-298275FF111D}|TreeImplementationPrj\\TreeImplementationPrj.csproj|solutionrelative:treeimplementationprj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E928A58-BAD3-44EC-96B0-298275FF111D}|TreeImplementationPrj\\TreeImplementationPrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\trees\\treeimplementation\\treeimplementationprj\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E928A58-BAD3-44EC-96B0-298275FF111D}|TreeImplementationPrj\\TreeImplementationPrj.csproj|solutionrelative:treeimplementationprj\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D621686C-2DB2-41A5-8640-48C585CC2AC8}|TreeImplementationTests\\TreeImplementationTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\trees\\treeimplementation\\treeimplementationtests\\binarytreetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D621686C-2DB2-41A5-8640-48C585CC2AC8}|TreeImplementationTests\\TreeImplementationTests.csproj|solutionrelative:treeimplementationtests\\binarytreetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D621686C-2DB2-41A5-8640-48C585CC2AC8}|TreeImplementationTests\\TreeImplementationTests.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\trees\\treeimplementation\\treeimplementationtests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D621686C-2DB2-41A5-8640-48C585CC2AC8}|TreeImplementationTests\\TreeImplementationTests.csproj|solutionrelative:treeimplementationtests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E928A58-BAD3-44EC-96B0-298275FF111D}|TreeImplementationPrj\\TreeImplementationPrj.csproj|d:\\mvs projects\\challenges-and-data-structures\\data structures\\trees\\treeimplementation\\treeimplementationprj\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +38,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 13,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -53,34 +73,68 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationTests\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "TreeImplementationTests\\GlobalUsings.cs",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationTests\\GlobalUsings.cs",
+              "RelativeToolTip": "TreeImplementationTests\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:14:38.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RightViewtest.cs",
+              "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationTests\\RightViewtest.cs",
+              "RelativeDocumentMoniker": "TreeImplementationTests\\RightViewtest.cs",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationTests\\RightViewtest.cs",
+              "RelativeToolTip": "TreeImplementationTests\\RightViewtest.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:14:04.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BinaryTreeTests.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationTests\\BinaryTreeTests.cs",
               "RelativeDocumentMoniker": "TreeImplementationTests\\BinaryTreeTests.cs",
-              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationTests\\BinaryTreeTests.cs*",
-              "RelativeToolTip": "TreeImplementationTests\\BinaryTreeTests.cs*",
-              "ViewState": "AgIAANEAAAAAAAAAAAAkwNUAAAAPAAAAAAAAAA==",
+              "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationTests\\BinaryTreeTests.cs",
+              "RelativeToolTip": "TreeImplementationTests\\BinaryTreeTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T08:17:49.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BinaryTree.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationPrj\\BinaryTree.cs",
               "RelativeDocumentMoniker": "TreeImplementationPrj\\BinaryTree.cs",
               "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationPrj\\BinaryTree.cs",
               "RelativeToolTip": "TreeImplementationPrj\\BinaryTree.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAgwM0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAAAPcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T16:55:01.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BinarySearchTree.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationPrj\\BinarySearchTree.cs",
               "RelativeDocumentMoniker": "TreeImplementationPrj\\BinarySearchTree.cs",
@@ -88,12 +142,11 @@
               "RelativeToolTip": "TreeImplementationPrj\\BinarySearchTree.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwGEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T15:46:09.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-10T15:46:09.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Node.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationPrj\\Node.cs",
               "RelativeDocumentMoniker": "TreeImplementationPrj\\Node.cs",
@@ -105,13 +158,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationPrj\\Program.cs",
               "RelativeDocumentMoniker": "TreeImplementationPrj\\Program.cs",
               "ToolTip": "D:\\MVS Projects\\challenges-and-data-structures\\Data Structures\\Trees\\TreeImplementation\\TreeImplementationPrj\\Program.cs",
               "RelativeToolTip": "TreeImplementationPrj\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBwAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T15:23:39.724Z",
               "EditorCaption": ""
