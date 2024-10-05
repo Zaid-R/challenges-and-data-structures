@@ -41,6 +41,16 @@ namespace TreeImplementationPrj
 
             Console.WriteLine(String.Join(" ",Btree2.PrintRightView()));
 
+            var tree = new int[] { 1, 2, 3, 4, 5, 6, 7 }; // Level 0: 1, Level 1: 2, 3, Level 2: 4, 5, 6, 7
+            var binaryTree = new BinaryTree();
+            binaryTree.Root = new Node(1);
+            binaryTree.Root.Right = new Node(2);
+            binaryTree.Root.Left = new Node(3);
+            binaryTree.Root.Left.Right = new Node(4);
+            binaryTree.Root.Left.Left = new Node(5);
+            binaryTree.Root.Right.Right = new Node(6);
+            binaryTree.Root.Right.Left = new Node(7);
+            binaryTree.Print();
         }
     }
 }

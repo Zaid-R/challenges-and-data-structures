@@ -202,15 +202,15 @@ namespace LinkedListProject
                 // The new head will be the node after the k-th node
                 Node newHead = kthNode.next;
 
-                // Make the k-th node the new tail
-                kthNode.next = null;
-
                 // Link the old tail to the old head
                 lastNode.next = Head;
 
                 // Update the head and tail references
                 Head = newHead;
+
                 Tail = kthNode;
+                
+                Tail.next = null;
             }
         }
     }
