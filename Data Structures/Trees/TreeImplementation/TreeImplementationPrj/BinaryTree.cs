@@ -283,5 +283,46 @@ namespace TreeImplementationPrj
             }
             return result;
         }
+
+        public int FindMaxLevelNodes()
+        {
+            if (Root == null)
+                return -1; // Indicates the tree is empty
+
+            var queue = new Queue<Node>();
+            queue.Enqueue(Root);
+
+            int maxLevel = 0;
+            int maxNodes = 0;
+            int currentLevel = 0;
+
+            while (queue.Count > 0)
+            {
+                int levelSize = queue.Count; // Number of nodes at the current level
+
+                // Check if the current level has more nodes than previous levels
+                if (levelSize > maxNodes)
+                {
+                    maxNodes = levelSize;
+                    maxLevel = currentLevel;
+                }
+
+                for (int i = 0; i < levelSize; i++)
+                {
+                    var node = queue.Dequeue();
+
+                    // Enqueue children for the next level
+                    if (node.Left != null)
+                        queue.Enqueue(node.Left);
+                    if (node.Right != null)
+                        queue.Enqueue(node.Right);
+                }
+
+                currentLevel++;
+            }
+
+            return maxLevel;
+        }
+
     }
 }
