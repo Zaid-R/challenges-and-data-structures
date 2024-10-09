@@ -88,6 +88,39 @@ namespace TreeImplementationPrj
             if (Right < 0) Right = Left + s.Length;
             while (Console.CursorLeft < Right) Console.Write(s);
         }
+
+        public int FindMinimumDepth()
+        {
+            if (Root == null)
+                return 0;
+
+            Queue<Node> queue = new Queue<Node>();
+            queue.Enqueue(Root);
+            int depth = 1;
+
+            while (queue.Count > 0)
+            {
+                int levelSize = queue.Count;
+                for (int i = 0; i < levelSize; i++)
+                {
+                    Node current = queue.Dequeue();
+
+                    // Check if this is a leaf node
+                    if (current.Left == null && current.Right == null)
+                        return depth;
+
+                    // Add children to the queue
+                    if (current.Left != null)
+                        queue.Enqueue(current.Left);
+                    if (current.Right != null)
+                        queue.Enqueue(current.Right);
+                }
+                depth++;
+            }
+
+            return depth;
+        }
+
         // ( Root - Left - Right )
         // Pre-order traversal (Root - Left - Right)
         public void PreOrderTraversal(Node node, List<int> result)
