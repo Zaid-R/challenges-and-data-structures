@@ -68,3 +68,6 @@
 
 ## Binary Tree - Level with Maximum Number of Nodes
 ![Binary Tree - Level with Maximum Number of Nodes](./images/FindMaxLevelNodes.png)
+
+## Binary Tree - Minimum Depth
+![Binary Tree - Minimum Depth](./images/mindepth.png)
