@@ -71,3 +71,6 @@
 
 ## Binary Tree - Minimum Depth
 ![Binary Tree - Minimum Depth](./images/mindepth.png)
+
+## Binary Tree to Binary Search Tree
+![Binary Tree to Binary Search Tree](./images/bttobstsol.png)

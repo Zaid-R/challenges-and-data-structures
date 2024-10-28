@@ -125,6 +125,7 @@ namespace TreeImplementationPrj
         // Pre-order traversal (Root - Left - Right)
         public void PreOrderTraversal(Node node, List<int> result)
         {
+            Console.WriteLine();
             if (node == null) return;
             result.Add(node.Value);
             PreOrderTraversal(node.Left, result);
@@ -355,6 +356,31 @@ namespace TreeImplementationPrj
             }
 
             return maxLevel;
+        }
+
+        private static void ConstructBST(Node root, List<int> nodes, ref int index)
+        {
+            if (root == null) return;
+
+            ConstructBST(root.Left, nodes, ref index);
+
+            // Update root value
+            root.Value = nodes[index];
+            index++;
+
+            ConstructBST(root.Right, nodes, ref index);
+        }
+
+        public void ConvertToBST()
+        {
+            List<int> nodes = new List<int>();
+            InOrderTraversal(Root, nodes);
+
+            // sort the nodes
+            nodes.Sort();
+
+            int index = 0;
+            ConstructBST(Root, nodes, ref index);
         }
 
     }
