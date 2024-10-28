@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedListProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a9346aa5e64e583995f95d9e475c7b46020c887")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2247363d535c4ffaaa89a067698a3b635915ca8")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedListProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedListProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,6 +4,86 @@ namespace TreeImplementationTests
 {
     public class BinaryTreeTests
     {
+
+        [Fact]
+        public void TestConvertToBST_WithBalancedTree()
+        {
+            // Arrange
+            var tree = new BinaryTree
+            {
+                Root = new Node(10)
+                {
+                    Left = new Node(30),
+                    Right = new Node(15)
+                    {
+                        Left = new Node(20)
+                    }
+                }
+            };
+
+            // Act
+            tree.ConvertToBST();
+
+            // Collect results in sorted order
+            var resultNodes = new List<int>();
+            tree.InOrderTraversal(tree.Root, resultNodes);
+
+            // Assert - Check if the tree is in sorted order
+            Assert.Equal(new List<int> { 10, 15, 20, 30 }, resultNodes);
+        }
+
+        [Fact]
+        public void TestConvertToBST_WithSingleSideTree_LeftOnly()
+        {
+            // Arrange
+            var tree = new BinaryTree
+            {
+                Root = new Node(20)
+                {
+                    Left = new Node(10)
+                    {
+                        Left = new Node(5)
+                    }
+                }
+            };
+
+            // Act
+            tree.ConvertToBST();
+
+            // Collect results in sorted order
+            var resultNodes = new List<int>();
+            tree.InOrderTraversal(tree.Root, resultNodes);
+
+            // Assert - Check if the tree is in sorted order
+            Assert.Equal(new List<int> { 5, 10, 20 }, resultNodes);
+        }
+
+        [Fact]
+        public void TestConvertToBST_WithSingleSideTree_RightOnly()
+        {
+            // Arrange
+            var tree = new BinaryTree
+            {
+                Root = new Node(5)
+                {
+                    Right = new Node(10)
+                    {
+                        Right = new Node(20)
+                    }
+                }
+            };
+
+            // Act
+            tree.ConvertToBST();
+
+            // Collect results in sorted order
+            var resultNodes = new List<int>();
+            tree.InOrderTraversal(tree.Root, resultNodes);
+
+            // Assert - Check if the tree is in sorted order
+            Assert.Equal(new List<int> { 5, 10, 20 }, resultNodes);
+        }
+
         [Fact]
         public void PreOrderTraversal_Test()
         {
